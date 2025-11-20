@@ -15,9 +15,7 @@ namespace stde
 		class bimap
 	{
 	public:
-		class const_iterator : public iterator<
-			std::bidirectional_iterator_tag,
-			std::pair<const _KeyType&, const _ValueType&>>
+		class const_iterator
 		{
 		public:
 			typedef const_iterator self_type;
